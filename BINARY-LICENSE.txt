@@ -1,0 +1,12 @@
+LUMU BUDDY v0.1.0 Beta
+Copyright (c) 2026 LUMU GAMES. All rights reserved.
+
+LUMU GAMES grants users permission to install and use the officially distributed
+LUMU BUDDY application binaries free of charge. No account is required.
+This permission does not grant a public license to the original application
+source code. LUMU GAMES retains its rights in that source code and original art.
+
+This is a beta version. Features and platform behavior may change; known
+limitations and signing status are described in the release notes.
+Third-party open-source components retain their respective licenses and rights.
+See THIRD-PARTY-NOTICES.md and the bundled Electron/Chromium license notices.
