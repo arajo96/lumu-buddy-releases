@@ -2,21 +2,25 @@
 
 내가 좋아하는 이미지가 데스크톱 친구로!
 
-LUMU GAMES의 무료 로컬 데스크톱 앱 다운로드 전용 저장소입니다.
-원본 애플리케이션 소스코드, 개인 이미지·설정·로그는 이 저장소에 포함하지 않습니다.
-GitHub가 자동 생성하는 Source code ZIP/TAR에는 이 다운로드 저장소의 문서만 들어갑니다.
+LUMU GAMES의 다운로드 전용 저장소입니다. 원본 애플리케이션 TypeScript, 개인 이미지·설정·키·대화·로그는 포함하지 않습니다. GitHub의 자동 Source code ZIP/TAR에는 이 저장소의 문서만 들어갑니다. Electron 실행용 JavaScript는 설치 패키지에서 열람할 수 있으며 ASAR는 암호화가 아닙니다.
 
-공식 소개·설치 안내: https://lumugames.com/apps/lumu-buddy
+공식 소개: https://lumugames.com/apps/lumu-buddy
+설치·보안 경고 안내: https://lumugames.com/apps/lumu-buddy/guide
 
-v0.1.0 Beta: macOS Apple Silicon(arm64), Windows x64(실기기 미검증).
-macOS는 ad-hoc 서명이며 Developer ID 서명·Apple 공증이 없습니다.
-Windows는 Authenticode 서명이 없습니다. OS 보안 경고/실행 제한이 발생할 수 있습니다.
-보안 기능을 일괄 해제하지 말고 공식 자산과 SHA256SUMS.txt를 확인하세요.
+## v0.4.0 Beta
 
-PNG·WEBP·GIF 등록, 이미지 변경, 시계, 반복 알람, 사용자 사운드,
-출퇴근 관리, 집중 타이머를 제공합니다. 이미지·사운드·일정은 기기에만 저장합니다.
-버그 제보: https://lumugames.com/contact
-개인 이미지·설정·인증 정보는 제보에 첨부하지 마세요.
+- BUDDY CHAT: 무료 오프라인 규칙형 대화, 본인 OpenAI API 키, 직접 설치한 Ollama 로컬 AI 중 선택합니다.
+- 캐릭터 성격과 로컬 대화 기록, 4개 언어·4개 테마를 지원합니다.
+- 랜덤 말풍선, 사용자 바로가기, 운세 50개와 기존 이미지·알람·일정·타이머를 유지합니다.
+- 기본 기능은 무료입니다. 선택형 API 사용료는 제공업체 정책과 본인 계정에 따르며 LUMU BUDDY가 대신 결제하지 않습니다.
+- API는 동의한 캐릭터 설정과 제한된 최근 대화만 전송합니다. 이미지·사운드 파일은 첨부하지 않습니다. 로컬 모드는 직접 loopback으로만 연결하며 모델을 앱에 포함하거나 자동 설치하지 않습니다.
 
-바이너리 사용 허가는 BINARY-LICENSE.txt를 참고하세요.
-Electron 실행용 JavaScript는 패키지에서 열람할 수 있습니다. ASAR는 암호화가 아닙니다.
+macOS Apple Silicon arm64 DMG, Windows x64 설치형 EXE를 제공합니다. Windows 실기기 설치·실행 및 실제 OpenAI·Ollama 생성 응답은 미검증입니다. macOS OS 보안 저장소의 권한 허용·키 저장은 사용자가 직접 확인해야 합니다.
+
+macOS는 ad-hoc 서명이며 Developer ID 서명·Apple 공증이 없습니다. Windows에는 Authenticode 서명이 없습니다. OS 보안 경고나 실행 제한이 발생할 수 있습니다. 보안 기능을 일괄 해제하지 말고 공식 출처와 SHA256SUMS.txt를 확인하세요. 자동 업데이트는 제공하지 않습니다.
+
+업데이트 전에 앱을 완전히 종료하고 전체 데이터 폴더를 보호된 개인 위치에 백업하세요. 대화·성격은 로컬 평문이며 키만 OS 기능으로 암호화합니다. 자세한 처리 범위와 삭제·백업 정책은 앱에 포함된 PRIVACY.md와 공식 설치 가이드를 확인하세요.
+
+기존 v0.1.0-beta·v0.2.0-beta·v0.3.0-beta Release와 파일은 유지합니다. 바이너리 사용 허가는 BINARY-LICENSE.txt를 참고하세요.
+
+문의: https://lumugames.com/contact — API 키, 개인 이미지·설정·대화 원문을 첨부하지 마세요.
